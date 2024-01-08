@@ -16,3 +16,4 @@ public class AnimeController {
         return List.of(new Anime("DBZ"), new Anime("Berserk"));
     }
 }
+

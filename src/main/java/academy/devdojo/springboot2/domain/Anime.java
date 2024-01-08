@@ -18,3 +18,4 @@ public class Anime {
         this.name = name;
     }
 }
+
