@@ -29,7 +29,7 @@ public class AnimeController {
     @GetMapping(path = "list2")
     public List<Anime> list2() {
         log.info(dateUtil.formatLocalDateTimeToDatabaseStyle(LocalDateTime.now()));
-        return List.of(new Anime("Dragon Ball Z"), new Anime("Sakura Card Captors"));
+        return List.of(new Anime("Dragon Ball Z"), new Anime("Sakura Card Captors"), new Anime("YuYu Hakusho"));
     }
 
     @GetMapping(path = "list3")
