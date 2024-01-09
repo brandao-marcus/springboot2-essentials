@@ -19,7 +19,7 @@ import java.util.List;
 public class AnimeController {
     private final DateUtil dateUtil;
 
-    //localhost:8080/anime/list
+    //localhost:8080/anime/list1
    @GetMapping(path = "list1")
     public List<Anime> list1() {
        log.info(dateUtil.formatLocalDateTimeToDatabaseStyle(LocalDateTime.now()));
